@@ -1,14 +1,17 @@
 <template>
     <div>
-       <Slider/>
+        <TopHeader/>
+        <Navigation/>
     </div>
 </template>
 
 <script>
-import Slider from '../components/Slider.vue'
+import TopHeader from './global/TopHeader.vue'
+import Navigation from './global/Navigation.vue'
 export default {
     components:{
-        Slider
+        TopHeader,
+        Navigation
     },
     setup () {
         
